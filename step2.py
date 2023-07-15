@@ -8,4 +8,5 @@ try:
       counter = counter + 1
       text = str(counter)+"\n"
       file.write(text)
+    file.close
 #    pass
