@@ -5,4 +5,3 @@ with open("resultado.txt", "w") as archivo:
         else:
             mensaje = "El número {} es impar.\n".format(elemento)
         archivo.write(mensaje)
-    archivo.close
