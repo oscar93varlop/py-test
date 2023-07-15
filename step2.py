@@ -10,5 +10,5 @@ try:
       file.write(text)
 #    pass
 except FileExistsError:
-  print(f"{filename} already exists.")
+  print("el archivo ya existe")
   print('*' * 20)
