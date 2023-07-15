@@ -5,3 +5,19 @@ with open("resultado.txt", "w") as archivo:
         else:
             mensaje = "El número {} es impar.\n".format(elemento)
         archivo.write(mensaje)
+
+with open("resultado_x.txt", "x") as archivo:
+    for elemento in range(1, 50):
+        if elemento % 2 == 0:
+            mensaje = "El número {} es par.\n".format(elemento)
+        else:
+            mensaje = "El número {} es impar.\n".format(elemento)
+        archivo.write(mensaje)
+
+with open("resultado_a.txt", "a") as archivo:
+    for elemento in range(1, 50):
+        if elemento % 2 == 0:
+            mensaje = "El número {} es par.\n".format(elemento)
+        else:
+            mensaje = "El número {} es impar.\n".format(elemento)
+        archivo.write(mensaje)
