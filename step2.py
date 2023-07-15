@@ -9,6 +9,3 @@ try:
       text = str(counter)+"\n"
       file.write(text)
 #    pass
-except FileExistsError:
-  print("el archivo ya existe")
-  print('*' * 20)
