@@ -1,3 +1,4 @@
+# coding=utf-8
 filename = "my_file.txt"
 counter = 0
 try:
@@ -8,7 +9,6 @@ try:
       counter = counter + 1
       text = str(counter)+"\n"
       file.write(text)
-    file.close
 #    pass
 except FileExistsError:
   print(" already exists")
